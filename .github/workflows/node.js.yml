@@ -5,7 +5,7 @@ name: FunctionalTest
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch: {}
 
 jobs:
