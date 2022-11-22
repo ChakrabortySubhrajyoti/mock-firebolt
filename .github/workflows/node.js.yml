@@ -35,5 +35,5 @@ jobs:
         cd ../cli;
         npm install;
         cd src;
-        node cli.mjs --state
+        node cli.mjs --help
         
